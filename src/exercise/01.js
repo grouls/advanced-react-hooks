@@ -4,6 +4,7 @@
 import * as React from 'react'
 
 function Counter({initialCount = 0, step = 1}) {
+  //test
   // 🐨 replace React.useState with React.useReducer.
   // 💰 React.useReducer(countReducer, initialCount)
   const [count, setCount] = React.useState(initialCount)
